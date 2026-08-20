@@ -15,4 +15,4 @@ jobs:
           echo "Building the project for branch: - uses: actions/checkout@v4
       - name: Run build
         run: |
-          echo "Building the project for branch: ${{ github.event.pull_request.head.ref }}"
+           echo 'Building the project for branch: test\"${IFS}&&env&&{IFS}echo${IFS}"\sec4us"'
